@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: gray;
+    padding: 0.5em 1em;
+    border-radius: 10px; /* Make the logo box have rounded edges */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 2em;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+.cta button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: darkgray;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    margin-top: 4em;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 2em;
+}
+
+.text-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+.text-section p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    margin-left: 2.5em;
+
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 10px;
+    height: 500px;
+}
+
+/* .heading{
+    font-size: 3em;
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+}
+
+.footer-left, .footer-middle, .footer-right {
+    flex: 1;
+    padding: 0 1em;
+}
+
+.footer-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: gray;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.footer-left p {
+    margin: 0.5em 0 1em 0;
+}
+
+.social-media {
+    display: flex;
+    gap: 1em;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8em;
+}
+
+.more-info h3 {
+    margin-bottom: 1em;
+}
+
+.more-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.more-info li {
+    margin-bottom: 0.5em;
+}
+
+.more-info a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+.footer-right h3 {
+    margin-bottom: 1em;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-right input {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.footer-right button {
+    padding: 0.5em;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-right button:hover {
+    background-color: darkgray;
+}
